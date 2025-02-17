@@ -64,6 +64,22 @@ nest generate pipe pipe-name
 nest g pipe pipe-name
 ```
 
+# To create all these resources at once
+
+This command will create all the necessary files the module wants which are `DTO classes (create and update)`, `entity class`, `module file`, `controller with CRUD endpoints and the test spec`, `service and the test spec`
+
+But all these are created when you choose a REST API and selected generate CRUD
+
+```Bash
+nest generate resource module-name
+```
+
+## in short form
+
+```Bash
+nest g resource module-name
+```
+
 # To run Test
 
 ```Bash
